@@ -1,3 +1,6 @@
-h1 {
-    color: red;
- }
+nav {
+    display: inline-block;
+    width: 150px;
+    border: 1px black solid;
+    vertical-align: top;
+}
