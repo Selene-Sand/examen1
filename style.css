@@ -1,6 +1,33 @@
 nav {
-    display: inline-block;
+    display: flex;
     width: 150px;
-    border: 1px black solid;
-    vertical-align: top;
+    vertical-align: center;
 }
+ul {
+    display:flex;
+    list-style-type: none;
+}
+ul a{
+    display:flex; 
+    min-width: 120px;  
+    
+    margin: 0.5rem; 
+    padding: 1rem; 
+    text-align: center; 
+    background-color: black;
+    color: pink;
+    text-decoration: none;
+    border: 1px solid #fff;
+    border-radius: 4px;
+    vertical-align: middle;
+}
+.logo{
+    max-width: 100%;
+    height: auto;
+    background-color: #fff;
+}
+ul a:hover {
+    background-color: pink;
+    color: black;
+    border-color: #ffe843;
+  }
